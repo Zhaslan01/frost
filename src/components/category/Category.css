@@ -1,0 +1,46 @@
+.category {
+    margin: 30px 0;
+}
+
+.category_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 276px;
+    background: #ffffff;
+    margin: 0 auto;
+    padding: 60px 70px;
+}
+
+p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.category_item {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    margin: 0 50px 25px;
+}
+
+.category_item p {
+    margin-bottom: 5px;
+}
+
+.checkbox-type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+.checkbox-type input {
+    margin-right: 12px;
+    background-color: #D3D3D3;
+}
+

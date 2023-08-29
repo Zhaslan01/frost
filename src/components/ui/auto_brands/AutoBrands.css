@@ -1,0 +1,26 @@
+.settings {
+    background-color: #F4F4F4;
+    border: 1px solid #E5E5E5;
+    padding: 30px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7A7A7A;
+}
+
+.settings span {
+    width: 9px;
+    height: 25px;
+    color: #1C499F;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 10px 0 0;
+}
+
+.settings .category .drop-menu {
+    display: flex;
+    flex-direction: column;
+}

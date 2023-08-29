@@ -1,0 +1,162 @@
+.product {
+
+}
+
+.product_container {
+    display: flex;
+    width: 1200px;
+    margin: 30px auto;
+
+}
+
+.product .left_side {
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+}
+
+.left_side p {
+    margin-top: 37px;
+    margin-bottom: 11px;
+}
+
+.product .right_side {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+
+.about {
+    width: 400px;
+
+}
+
+.about h2 {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 33px;
+}
+
+
+.articool {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7A7A7A;
+
+}
+
+.articool span {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.articool p {
+    margin-bottom: 20px;
+}
+
+.product_price {
+    width: 270px;
+    height: 255px;
+    background: #EDEDED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product_price h2 {
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.tick {
+    display: flex;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.availability-icon{
+    display: flex;
+}
+
+.icon-img {
+    margin-right: 10px;
+}
+
+.tick_img {
+    margin-right: 5px;
+}
+
+.product_price p2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7A7A7A;
+}
+
+.responses h2 {
+    margin-top: 47px;
+    margin-bottom: 14px;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.leave_response {
+    display: flex;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7A7A7A;
+}
+
+.leave_response a {
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2156BD;
+    margin-left: 5px;
+}

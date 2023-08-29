@@ -1,0 +1,78 @@
+.product_card {
+    width: 370px;
+    height: 420px;
+    background: #ffffff;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+/*.product_card:first-child {*/
+/*    margin-right: 45px;*/
+/*    color: red;*/
+/*}*/
+
+/*.product_card:last-child {*/
+/*    margin-left: 45px;*/
+/*    color: yellow;*/
+/*}*/
+
+.compressor_info {
+    width: 308px;
+    height: 80px;
+    margin: 0 auto;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.compressor_text {
+    text-decoration: none;
+    color: #000000;
+}
+
+.compressor_text:hover {
+    color: #333;
+}
+
+.compressor_purchase {
+    display: flex;
+    align-items: center;
+    margin-left: 31px;
+    margin-top: 33px;
+}
+
+
+.compressor_price {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.compressor_buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 40px;
+    background: #2156BD;
+    color: #ffffff;
+    margin-left: 28px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.compressor_img {
+    width: 308px;
+    height: 191px;
+    margin-top: 10px;
+}

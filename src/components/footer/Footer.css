@@ -1,0 +1,41 @@
+.footer {
+    background-color: #1E1E1E;
+    width: 100%;
+    padding: 55px 0;
+}
+
+.footer_container {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 45px;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.info p {
+    margin-left: 17px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.contacts p1{
+    color: #9A9A9A;
+}

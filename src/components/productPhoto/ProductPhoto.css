@@ -1,0 +1,31 @@
+.product_photo {
+
+}
+
+.main_img {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border: 2px solid #E5E5E5
+}
+
+.product_img {
+    width: 370px;
+    height: 290px;
+}
+
+.row_photo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo_bg {
+    width: 90px;
+    height: 90px;
+    background: #ffffff;
+    margin: 15px 0 0 0;
+    border: 2px solid #E5E5E5;
+}

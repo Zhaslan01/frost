@@ -1,0 +1,30 @@
+.comment {
+    width: 704px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    margin: 30px 0 0 0;
+    border: 2px solid #EDEDED;
+}
+
+.comment .user{
+    margin: 0 0 20px 0;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin: 0 0 20px 0;
+}
+
+.comment .text {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}

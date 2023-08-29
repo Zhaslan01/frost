@@ -1,0 +1,116 @@
+.nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 58px;
+    margin-bottom: 39px;
+}
+
+.order {
+    margin-right: 46px;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.chosen {
+    width: 213px;
+    height: 40px;
+    background: #2156BD;
+    border: 1px solid #E5E5E5;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.chosen:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 19px solid transparent;
+    border-left: 16px solid #2156BD;
+    border-bottom: 20px solid transparent;
+    left: 211px;
+    top: 0px;
+    z-index: 100;
+}
+
+.not_chosen {
+    width: 213px;
+    height: 40px;
+    background: #ffffff;
+    border: 1px solid #E5E5E5;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #E5E5E5;
+    position: relative;
+}
+
+.not_chosen:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 17px solid #D3D3D3;
+    border-bottom: 20px solid transparent;
+    left: 213px;
+    top: 0px;
+    z-index: 100;
+}
+
+.not_chosen:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 17px solid #ffffff;
+    border-bottom: 20px solid transparent;
+    left: 210px;
+    top: 0px;
+    z-index: 100;
+}
+
+.chosen_last {
+    width: 213px;
+    height: 40px;
+    background: #2156BD;
+    border: 1px solid #E5E5E5;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.not_chosen_last{
+    width: 213px;
+    height: 40px;
+    background: #ffffff;
+    border: 1px solid #E5E5E5;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #E5E5E5;
+}
